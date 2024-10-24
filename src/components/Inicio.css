@@ -1,0 +1,71 @@
+/* Inicio.css */
+
+.inicio-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.botones {
+  margin-bottom: 20px;
+}
+
+.botones button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.botones button:hover {
+  background-color: #45a049;
+}
+
+.fechas {
+  margin-bottom: 20px;
+}
+
+.fechas label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.fechas input {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
