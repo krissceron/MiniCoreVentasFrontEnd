@@ -12,7 +12,7 @@ Este proyecto es el frontend de un minicore de ventas, diseñado para gestionar 
 - [Uso](#uso)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Contribución](#contribución)
-- [Licencia](#licencia)
+
 
 ## Descripción
 
@@ -101,3 +101,14 @@ La estructura del proyecto sigue el siguiente formato:
       ├── package.json          # Dependencias y scripts del proyecto
       └── tsconfig.json         # Configuración de TypeScript
 
+## Contribución
+
+Las contribuciones son bienvenidas. Si encuentras un problema o tienes alguna mejora que sugerir, crea un issue o un pull request en el repositorio.
+
+Pasos para contribuir:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+3. Realiza los cambios y haz commit (git commit -m 'Añadir nueva funcionalidad').
+4. Sube los cambios (git push origin feature/nueva-funcionalidad).
+5. Abre un Pull Request.
